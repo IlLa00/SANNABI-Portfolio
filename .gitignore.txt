@@ -1,0 +1,93 @@
+# Visual Studio 관련 파일 (스크린샷에 나타난 파일들 포함)
+.vs/               # .vs 폴더 전체 (Visual Studio 임시 및 설정 파일)
+*.ipch             # IntelliSense PCH 파일
+*.pch              # Precompiled Header 파일
+
+# 일반적인 C++ 빌드 부산물 (이전에 드렸던 내용)
+*.o
+*.obj
+*.ko
+*.lo
+*.la
+*.so
+*.dylib
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+*.app
+*.ipa
+*.apk
+
+# 디버그/릴리즈 빌드 폴더
+build/
+bin/
+obj/
+debug/
+release/
+x64/
+Win32/
+
+# IDE/에디터 관련 파일
+*.sln
+*.suo
+*.user
+*.vcxproj.filters
+*.vcxproj.user
+ipch/             # 중복될 수 있지만 명시적으로 추가
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.tlog
+_UpgradeReport_Files/
+*.VC.db
+*.VC.db-shm
+*.VC.db-wal
+*.PDB
+*.ilk
+*.log
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+Makefile
+DartConfiguration.tcl
+
+# 임시 파일
+*~
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# 로그 파일
+*.log
+
+# 패키지/종속성 관리 도구 관련 (필요시)
+# vcpkg_installed/
+# conanbuildinfo.cmake
+# conan_imports.txt
+
+# 테스트 관련
+test_results/
+
+# 기타 용량이 큰 파일 (LFS 사용 권장하지만, 임시로 제외할 경우)
+# *.dat
+# *.bin
+# *.zip
+# *.rar
+# *.7z
+# *.mp4
+# *.mov
+# *.avi
+# *.wav
+# *.mp3
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
